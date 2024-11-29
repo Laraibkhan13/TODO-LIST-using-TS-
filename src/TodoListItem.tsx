@@ -1,12 +1,12 @@
 import { ITask } from './Interface'
 
+
 interface props{
     task:ITask;
     completeTask(taskNametoDelete:string):void
 }
 const TodoListItem = ({task,completeTask}:props) => {
 
-    
 
   return (
     <div>
